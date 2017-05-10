@@ -21,39 +21,22 @@
       </div>
 
       <div class="container">
-        <h1></h1>
+
 
         <div class="row">
-          <div class="col-md-6">
-
-            <form id="new-contact">
-              <div class="form-group">
-                <label for="country-name"> Country</label>
-                <input type="text" class="form-control" id="country-name">
-              </div>
-
-
-
-
-              <button type="submit" class="btn"> Add </button>
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <h2> To Do List</h2>
+            <form name="checkListForm">
+              <input type="text" name="checkListItem" placeholder="Add Item"../"">
             </form>
-
-            <h2>Places:</h2>
-            <ul id="places">
-
-            </ul>
+              <button type="button" id="add" class="btn btn-info">Add</button>
+              <button type="button" id="clear" title="Clear checked item" class="btn btn-default">Clear</button>
+            <br/><br/>
+            <div class="list"></div>
           </div>
-        </div>
-
-        <div class="col-md-6">
-          <div id="show-contact">
-            <h2></h2>
-
-            
-          </div>
+          <div class="col-md-4"></div>
         </div>
       </div>
-      </div>
-
     </body>
   </html>

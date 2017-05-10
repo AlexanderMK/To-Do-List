@@ -1,0 +1,14 @@
+h2{
+  font-style: normal;
+}
+
+form {
+  display: inline-block;
+}
+
+.list {
+  font-family: ;
+  font-size: 15px;
+  color: #000000;
+  cursor: pointer;
+}
